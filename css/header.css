@@ -1,0 +1,9 @@
+#banner
+{
+	height: 130px;
+	padding: 0;
+	margin-bottom: 0px;
+	width: inherit;
+	background: url(../images/header.jpg) center no-repeat;
+	background-color: #014a01;
+}
