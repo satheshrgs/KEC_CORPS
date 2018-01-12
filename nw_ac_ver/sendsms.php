@@ -11,7 +11,7 @@ $_SESSION['phone']=$ph;
 $otp=rand(100000,500000);
 $msg="Your OTP for KEC CORPS is ".$otp;
 echo "redirecting....";
-sendWay2SMS ( '9843370220' , 'Rgs0123' ,$ph,$msg);
+sendWay2SMS ( '<your_phone_number>' , '<your_password>' ,$ph,$msg);
 $_SESSION['otp']=$otp;
 header('Location:verify.php');
 ?>
